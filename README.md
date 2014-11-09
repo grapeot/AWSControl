@@ -23,3 +23,4 @@ Also Configure the user to grant it control privileges of the desired instance.
 * (Optional) If you also want email notification once the system is up, install `exim4`, and deploy the IP binding script `ready.py` to the EC2 instance.
 Configure `crond` to launch it every time the system boots up.
 Example configuration is like `@reboot /home/ubuntu/ready.sh`.
+Also don't forget to change the `example@example.com` to your own email address(es).
