@@ -11,7 +11,7 @@ This is especially useful for someone sharing EC2 resources with others, like fo
 
 To Deploy this system, follow the procedures below:
 
-* Install dependencies: `apache2`, `libapache2-mod-php5`
+* Install dependencies on the server: `apache2`, `libapache2-mod-php5`, `pip`. And then `pip install boto` to install `boto`, an AWS SDK for python.
 * Create the IAM user credentials via the [IAM console](https://console.aws.amazon.com/iam/home?#home). 
 Also Configure the user to grant it control privileges of the desired instance.
 * Modify the python and php scripts (`aws.py`, `aws.php`) accordingly, especially:
