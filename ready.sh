@@ -1,3 +1,2 @@
 sleep 120
-# echo 'cvpr.grapeot.me ready to use now!' | mail -s 'cvpr machine ready' 'grapeot@gmail.com'
-echo 'cvpr.grapeot.me ready to use now!' | mail -s 'cvpr machine ready' 'grapeot@gmail.com,flyfengjie@gmail.com,ivan.wzx@gmail.com'
+echo 'The machine is ready to use now!' | mail -s 'cvpr machine ready' 'example@example.com'
